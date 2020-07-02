@@ -1,5 +1,5 @@
 @import "~normalize.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 html {
   background: #e5e5e5;
   min-height: 100vh;
@@ -41,20 +41,16 @@ body {
   justify-content: center;
 
   &_glass {
+    width: 280px;
+    height: 280px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background: url("../assets/img/logo.svg");
+    background-size: contain;
     &-value {
-      position: absolute;
-      left: 47%;
-      top: 33%;
-      // bottom: 48.89%;
- 
-
-
-      width: 88px;
-      height: 98px;
+      margin-top: 175px;
 
 
       font-family: Roboto;
